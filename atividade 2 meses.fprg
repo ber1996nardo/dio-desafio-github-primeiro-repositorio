@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bittencourt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-25 11:51:30 "/>
+        <attribute name="created" value="Qml0dGVuY291cnQ7REVTS1RPUC1FQkwyMjg0OzIwMjItMDQtMjU7IjExOjQyOjUyICI7MzM2MA=="/>
+        <attribute name="edited" value="Qml0dGVuY291cnQ7REVTS1RPUC1FQkwyMjg0OzIwMjItMDQtMjU7IjExOjQzOjE0ICI7MTtCaXR0ZW5jb3VydDtERVNLVE9QLUVCTDIyODQ7MjAyMi0wNC0yNTsiMTA6NDQ6NTkgIjthdGl2aWRhZGUgMSBmbHV4by5mcHJnOzkwNDA="/>
+        <attribute name="edited" value="Qml0dGVuY291cnQ7REVTS1RPUC1FQkwyMjg0OzIwMjItMDQtMjU7IjExOjUxOjMwICI7MTszNDY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, Fevereiro, Mar&#231;o, Abril, Media" type="Real" array="False" size=""/>
+            <input variable="Janeiro"/>
+            <input variable="Fevereiro"/>
+            <input variable="Mar&#231;o"/>
+            <input variable="Abril"/>
+            <assign variable="Media" expression="(Janeiro+Fevereiro+Mar&#231;o+Abril)/4"/>
+            <output expression="Media" newline="True"/>
+            <if expression="media &gt;=5000">
+                <then>
+                    <output expression="&quot;Parabens!! voce recebeu abono de 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voce vai receber apenos 3% de abono&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
